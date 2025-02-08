@@ -67,6 +67,6 @@ def goFilterCV(image_path):
 
 # Example usage:
 if __name__ == "__main__":
-    edges_image, points_list = goFilterCV("elevador.jpg")
+    edges_image, points_list = goFilterCV("./img/vieiras.jpg")
     print("Total approximated points:", len(points_list))
     # Each entry in points_list is (x, y, iteration_index).
