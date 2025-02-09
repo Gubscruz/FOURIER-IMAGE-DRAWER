@@ -201,7 +201,7 @@ def animate_epicycles(coeffs, num_frames=200):
 
 if __name__ == "__main__":
     # Process the image and extract the entire outline (all external contours combined)
-    combined_points = process_image("./img/vieiras.jpg")
+    combined_points = process_image("./img/draw.jpg")
     print("Number of combined outline points:", len(combined_points))
     
     # Resample the outline to a fixed number of points (e.g., 500)
